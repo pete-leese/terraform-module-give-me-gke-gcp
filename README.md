@@ -1,18 +1,17 @@
-# terraform-module-give-me-gke-gcp
+# Terraform repository template
 
-give me a repo for a terraform GKE terraform module
+Boilerplate for Terraform modules and root projects. Vended by [agentic-repo-vending](https://github.com/pete-leese/agentic-repo-vending).
 
-## Origin
+## Layout
 
-- **Jira:** `REPO-15`
-- **Summary:** give me a repo for a terraform GKE terraform module
-- **Created from template:** `template-terraform-repo`
-- **Repository:** https://github.com/pete-leese/terraform-module-give-me-gke-gcp
+- `modules/example` — sample module skeleton
+- `.github/workflows/terraform.yml` — fmt, validate, tflint
+- `.pre-commit-config.yaml` — local guardrails
 
-## Getting started
+## Usage
 
-Replace this section with setup and usage notes for the project.
+This repo is a **GitHub template**. New repos are created from it by the vend workflow.
 
-## Contributing
+## Guardrails
 
-Direct pushes to `main` should be blocked — open a pull request.
+After vend, `main` is branch-protected (PR required; no direct pushes).
